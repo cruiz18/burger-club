@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <!-- Our Files -->
+  <script type="text/javascript" src="script.js"></script>
 
   <title>Burger Club</title>
 
@@ -40,7 +42,7 @@
       </div>
       <div id="navbar" class="collapse navbar-collapse contactinfo_color">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://ordering.chownow.com/order/7631/locations?add_cn_ordering_class=true">ORDER ONLINE</a></li>
+          <li><a href="https://ordering.chownow.com/order/7631/locations?add_cn_ordering_class=true">Order Online</a></li>
           <li><a href="pages/location.html">Location</a></li>
           <li><a href="images/menu.png">Menu</a></li>
         </ul>
@@ -70,7 +72,8 @@
             <h3 style="font-weight:bold;">Burgers for the Whole Family</h3>
             <p>Our love and passion for comfort food and for hospitality drove us to find Burger Club. We have spared no expense in sourcing our ingredients for the local specialties bought from independent purveyors here in Astoria, to the local fresh rolls
               baked for us every day, to the ultra deluxe custom blend created specifically for us by celebrated butcher PAT LA FRIEDA.</p>
-              <a style="background-color:red;" class="btn btn-lg btn-primary" href="images/menu.png" role="button">Read Our Menu</a> <p>        </p>
+            <a style="background-color:red; border-color:red" class="btn btn-lg btn-primary" href="images/menu.png" role="button">Read Our Menu</a>
+            <p> </p>
           </div>
         </div>
 
@@ -80,7 +83,8 @@
             <h3 style="font-weight:bold;">Burgers for the Whole Family</h3>
             <p>Our love and passion for comfort food and for hospitality drove us to find Burger Club. We have spared no expense in sourcing our ingredients for the local specialties bought from independent purveyors here in Astoria, to the local fresh rolls
               baked for us every day, to the ultra deluxe custom blend created specifically for us by celebrated butcher PAT LA FRIEDA.</p>
-            <a style="background-color:red;" class="btn btn-lg btn-primary" href="images/menu.png" role="button">Read Our Menu</a> <p>        </p>
+            <a style="background-color:red; border-color:red" class="btn btn-lg btn-primary" href="images/menu.png" role="button">Read Our Menu</a>
+            <p> </p>
           </div>
         </div>
 
@@ -90,7 +94,8 @@
             <h3 style="font-weight:bold;">Burgers for the Whole Family</h3>
             <p>Our love and passion for comfort food and for hospitality drove us to find Burger Club. We have spared no expense in sourcing our ingredients for the local specialties bought from independent purveyors here in Astoria, to the local fresh rolls
               baked for us every day, to the ultra deluxe custom blend created specifically for us by celebrated butcher PAT LA FRIEDA.</p>
-          <a style="background-color:red;" class="btn btn-lg btn-primary" href="images/menu.png" role="button">Read Our Menu</a> <p>        </p>
+            <a style="background-color:red; border-color:red" class="btn btn-lg btn-primary" href="images/menu.png" role="button">Read Our Menu</a>
+            <p> </p>
           </div>
         </div>
 
@@ -107,12 +112,12 @@
       </a>
     </div>
   </div>
-      <br/>
+  <br/>
 
 
 
   <!-- Main component for a primary marketing message or call to action -->
-  
+
 
   <div class="footer">
     <div class="container">
@@ -124,14 +129,19 @@
         <p>Hours: 11:30AM–11:30PM</p>
         <p>Phone: (718) 777-7788</p>
       </div>
-      
-      <form action="https://formspree.io/mmcduffie@cristoreyny.org"
-      method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input id= "signUp" type="submit" value="Send">
-</form>
-  
+
+
+      <div class="col-sm-3">
+        <p class="lead contactinfo_color">Contact Us</p>
+        <form action="https://formspree.io/mmcduffie@cristoreyny.org" method="POST">
+          <input id="clientName" class="form-control" type="text" name="name" placeholder="Your Name"> </br>
+          <input id="clientEmail" class="form-control" type="email" name="_replyto" placeholder="Your Email"></br>
+          <input style="background-color:red; border-color:red" class="btn btn-lg btn-primary" id="signUp" type="submit" value="Sign Up">
+        </form>
+
+      </div>
+
+
 
 
 
