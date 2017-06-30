@@ -21,6 +21,9 @@
 .jumbotron {
 	padding: 100px;
 	height: 500px;
+	background-color: white;
+	
+/*	background-image: url(http://ucdintegrativemedicine.com/wp-content/uploads/Aug-21_BurgerDay_Header8CUTFB2_35406006.png); */
 }
 
 .jumbotron h1{
@@ -115,6 +118,13 @@ img {
  }
  
 
+
+#signUp{
+    color:rgb(255,215,0);
+    
+}
+
+
  
  /* Our Modification*/
 
@@ -133,3 +143,8 @@ img {
 .social_media_hover:hover {
     opacity: 0.7;
 }
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
